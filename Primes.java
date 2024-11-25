@@ -4,7 +4,7 @@ public class Primes {
         int primeCount = 0;
         int num = 2;
 
-        System.out.println("Prime numbers up to: " + numLimit);
+        System.out.println("Prime numbers up to " + numLimit + ":");
 
         while (num <= numLimit) {
             if (isPrime(num)) {
