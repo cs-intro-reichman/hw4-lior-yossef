@@ -109,8 +109,8 @@ public class ArrCharOps {
             concatArray[i] = arr1[i];
         }
 
-        for (int i = arr1.length; i < concatArray.length; i++) {
-            concatArray[i] = arr1[i - arr1.length];
+        for (int i = 0; i < arr2.length; i++) {
+            concatArray[arr1.length + i] = arr2[i];
         }
 
         return concatArray;
