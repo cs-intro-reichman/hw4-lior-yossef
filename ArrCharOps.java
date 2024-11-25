@@ -125,8 +125,8 @@ public class ArrCharOps {
         // Replace the following statement with your code
         char[] subArr = new char[endIndex - beginIndex];
 
-        for (int i = beginIndex; i < subArr.length; i++) {
-            subArr[i] = arr[i];
+        for (int i = 0; i < subArr.length; i++) {
+            subArr[i] = arr[i + beginIndex];
         }
 
         return subArr;
